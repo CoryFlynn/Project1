@@ -1,0 +1,9 @@
+body { font-face: sans-serif; margin: 10px;}
+button { border: 1px solid black; background: #ccc; font-size: large;}
+form, p, div { font-family: sans-serif;}
+table, th, tr, td { border: 1px solid black; }
+
+#tab_bar button { width: 120px; margin-right: 5px; height: 40px; border: 1px solid #black; }
+
+#P_page { width: 350px}
+#P_buts button { width: 150px; height: 150px; margin-top: 10px; margin-right: 10px;}

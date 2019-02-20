@@ -1,0 +1,10 @@
+body { font-face: sans-serif; margin: 10px;}
+button { border: 1px solid black; background: #ccc; font-size: large;}
+form, p, div { font-family: sans-serif;}
+table, th, tr, td { border: 1px solid black; }
+
+#tab_bar button { width: 150px; margin-right: 5px; height: 30px; border: 1px solid #black; }
+
+/* Drum Pad */
+#P_page { width: 500px}
+#P_buts button { width: 150px; height: 150px; margin-top: 10px; margin-right: 10px;}
