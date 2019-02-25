@@ -3,6 +3,7 @@ $(document).ready(function() {
   $("#H_page").show();
   $("#K_page").hide();
   $("#P_page").hide();
+  $.getScript('https://cdnjs.cloudflare.com/ajax/libs/tone/13.0.1/Tone.min.js');
 });
 
 $("#H_tab").click(function() {
