@@ -2,7 +2,7 @@
   <head>
     <title> Music Pad </title>
     <link rel="stylesheet" href="Mude.css">
-    <link rel="stylesheet" href="MudeResp.css" media="screen and (max-width: 650px)"
+    <link rel="stylesheet" href="MudeResp.css" media="screen and (max-width: 600px)"
   </head>
   <body>
     <div class="tab_bar" id="tab_bar">
@@ -12,8 +12,10 @@
 
     <div id="H_page" role"home page">
       <h1> Home Page </h1>
-      <button id="play"> Start Noise </button>
-      <button id="stop"> Stop Noise </button>
+      <div id="ps">
+        <button id="play"> Start Noise </button>
+        <button id="stop"> Stop Noise </button>
+      </div>
       <h2> Controls </h2>
       <table>
         <tr>
@@ -39,15 +41,17 @@
     <div id="P_page">
       <h1> Drum Pad </h1>
       <div id="P_buts">
-        <button id="P1" accesskey="u"> </button>
-        <button id="P2" accesskey="i"> </button>
-        <button id="P3" accesskey="o"> </button>
-        <button id="P4" accesskey="j"> </button>
-        <button id="P5" accesskey="k"> </button>
-        <button id="P6" accesskey="l"> </button>
+        <button id="P1" accesskey="u">  </button>
+        <button id="P2" accesskey="i">  </button>
+        <button id="P3" accesskey="o">  </button>
+        <button id="P4" accesskey="j">  </button>
+        <button id="P5" accesskey="k">  </button>
+        <button id="P6" accesskey="l">  </button>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Mude.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.0.1/Tone.min.js"></script>
+    <script src="Mude2.js"></script>
   </body>
 </html>

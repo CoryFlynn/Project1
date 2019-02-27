@@ -1,13 +1,13 @@
-body { font-face: sans-serif; margin: 10px;}
+body { font-face: sans-serif; margin: 10px; }
 button { border: 1px solid black; background: #ccc; font-size: large; }
 form, p, div { font-family: sans-serif;}
 table, th, tr, td { border: 1px solid black; }
 
-#tab_bar button { width: 150px; margin-right: 5px; height: 30px; border: 1px solid #black; }
+#tab_bar button { width: 150px; margin-right: 5px; height: 30px; border: 1px; background-color: #black; }
 
 /* Drum Pad */
 #P_page { width: 800px}
 #P_buts button { width: 200px; height: 200px; margin-top: 10px; margin-right: 10px; }
+#P_but .P1 { background-color: white; }
 
-#play button { width: 150px; height: 150px; marin-left: 10px magin-right: 75px; font-size: small; }
-#stop button { width: 150px; height: 150px; mergin-left: 10px; font-size: small; }
+#ps button { width: 110px; height: 110px; margin-left: 10px; margin-right: 10px; font-size: large; }
