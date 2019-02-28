@@ -27,7 +27,7 @@ $("#P5").click(function() {
 });
 
 $("#P6").click(function() {
-  var omniOsc = new Tone.OmniOscillator("C2", "pwm");
+  var omniOsc = new Tone.OmniOscillator("C4", "pwm");
   var ampEnv = new Tone.AmplitudeEnvelope({
 	"attack": 0.1,
 	"decay": 0.2,
